@@ -32,7 +32,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 2% 15%;
 }
 
 .card {
@@ -105,7 +105,18 @@ p {
   font-size: 0.8rem;
 }
 
+.decrement-count {
+  padding: 15px 0;
+  color: #C24962;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
 .followers {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.add-margin-top {
+  margin-top: 40px;
 }
