@@ -20,20 +20,20 @@ function darkMode() {
 
   $("card").css("background-color", "#252B43");
   $(".card-block").css("background-color", "#252B43");
-  // $(".card")
-  //   .mouseenter(function() {
-  //     $(".card").css("background-color", "#333956");
-  //   })
-  //   .mouseleave(function() {
-  //     $(".card").css("background-color", "#252B43");
-  //   });
-  // $(".card-block")
-  //   .mouseenter(function() {
-  //     $(".card-block").css("background-color", "#333956");
-  //   })
-  //   .mouseleave(function() {
-  //     $(".card-block").css("background-color", "#252B43");
-  //   });
+  $(".card")
+    .mouseenter(function() {
+      $(this).css("background-color", "#333956");
+    })
+    .mouseleave(function() {
+      $(this).css("background-color", "#252B43");
+    });
+  $(".card-block")
+    .mouseenter(function() {
+      $(this).css("background-color", "#333956");
+    })
+    .mouseleave(function() {
+      $(this).css("background-color", "#252B43");
+    });
 }
 
 function lightMode() {
@@ -47,19 +47,19 @@ function lightMode() {
 
   $(".card").css("background-color", "#F0F3FA");
   $(".card-block").css("background-color", "#F0F3FA");
-  // $(".card")
-  //   .mouseenter(function() {
-  //     $(".card").css("background-color", "#E1E3EF");
-  //   })
-  //   .mouseleave(function() {
-  //     $(".card").css("background-color", "#F0F3FA");
-  //   });
-  // $(".card-block")
-  //   .mouseenter(function() {
-  //     $(".card-block").css("background-color", "#E1E3EF");
-  //   })
-  //   .mouseleave(function() {
-  //     $(".card-block").css("background-color", "#F0F3FA");
-  //   });
+  $(".card")
+    .mouseenter(function() {
+      $(this).css("background-color", "#E1E3EF");
+    })
+    .mouseleave(function() {
+      $(this).css("background-color", "#F0F3FA");
+    });
+  $(".card-block")
+    .mouseenter(function() {
+      $(this).css("background-color", "#E1E3EF");
+    })
+    .mouseleave(function() {
+      $(this).css("background-color", "#F0F3FA");
+    });
 
 }
