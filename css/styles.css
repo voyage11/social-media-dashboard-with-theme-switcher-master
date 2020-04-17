@@ -18,6 +18,14 @@ h2 {
   font-size: 1.5rem;
 }
 
+h3 {
+  color: white;
+  margin-top: 3%;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin: 0;
+  line-height: 1;
+}
 
 p {
   color: #9094B9;
@@ -51,15 +59,53 @@ p {
 }
 
 .mode-container {
-  line-height:30px;
+  line-height: 30px;
   position: absolute;
-  top:35%;
+  top:30%;
   right:15px;
 }
 
 .dark-mode {
-  line-height:normal;
+  line-height: normal;
+  padding-right: 10px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: #3A4C98; color: hsl(228, 45%, 44%); }
+
+.facebook {
+  border-top: 4px solid #268CE5;
+  text-align: center;
+}
+.twitter {
+  border-top: 4px solid #2B9DE6;
+  text-align: center;
+}
+.instagram {
+  border: none;
+  border-radius: .25rem;
+  border-top: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #F2C382, #CC5591);
+  text-align: center;
+}
+.youtube {
+  border-top: 4px solid #B50C33;
+  text-align: center;
+}
+
+.social-image {
+  padding: 15px 0;
+}
+
+.increment-count {
+  padding: 15px 0;
+  color: #379283;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.followers {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
