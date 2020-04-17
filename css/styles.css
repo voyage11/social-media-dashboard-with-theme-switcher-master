@@ -54,6 +54,7 @@ p {
 .card-block:hover  {
   background-color: #333956;
 }
+
 .social-all {
   background-color: #252B43;
 }
@@ -84,6 +85,9 @@ p {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: #3A4C98; color: hsl(228, 45%, 44%); }
 
+.card {
+  border: 0;
+}
 .facebook {
   border-top: 4px solid #268CE5;
 }
@@ -91,7 +95,6 @@ p {
   border-top: 4px solid #2B9DE6;
 }
 .instagram {
-  border: none;
   border-radius: .25rem;
   border-top: 4px solid;
   border-image-slice: 1;
