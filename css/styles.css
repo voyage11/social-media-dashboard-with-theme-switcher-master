@@ -1,0 +1,62 @@
+
+body {
+  background-color: #1D2029;
+  color: #9094B9;
+  font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h2 {
+  color: white;
+  margin-top: 3%;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+
+p {
+  color: #9094B9;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.card {
+  background-color: #252B43;
+  margin-bottom: 3%;
+}
+.card-block {
+  background-color: #252B43;
+  padding: 3% 3%;
+
+}
+.social-all {
+  background-color: #252B43;
+}
+
+.social-today {
+  padding: 3% 3%;
+  background-color: #252B43;
+  margin-bottom: 3%;
+}
+
+.mode-position {
+  position: relative;
+}
+
+.mode-container {
+  line-height:30px;
+  position: absolute;
+  top:35%;
+  right:15px;
+}
+
+.dark-mode {
+  line-height:normal;
+}
