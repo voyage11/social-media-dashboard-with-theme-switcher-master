@@ -30,23 +30,24 @@
   width: 26px;
   left: 4px;
   bottom: 2px;
-  background-color: white;
+  background-color: #363A57;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-image: linear-gradient(to right, #ccc , #ccc);
+  background-image: linear-gradient(to right, #888 , #888);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #ccc;
+  box-shadow: 0 0 1px #888;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translateX(22px);
   -ms-transform: translateX(22px);
   transform: translateX(22px);
+  background-color: white;
 }
 
 /* Rounded sliders */
