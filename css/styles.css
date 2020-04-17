@@ -8,12 +8,13 @@ body {
 h1 {
   color: white;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 0;
 }
 
 h2 {
   color: white;
-  margin-top: 3%;
+  margin: 3% 0 2%;
   font-weight: 700;
   font-size: 1.5rem;
 }
@@ -39,10 +40,18 @@ p {
   background-color: #252B43;
   margin-bottom: 3%;
 }
+
 .card-block {
   background-color: #252B43;
   padding: 3% 3%;
+}
 
+.card:hover {
+  background-color: #333956;
+}
+
+.card-block:hover  {
+  background-color: #333956;
 }
 .social-all {
   background-color: #252B43;
@@ -75,11 +84,9 @@ p {
 
 .facebook {
   border-top: 4px solid #268CE5;
-  text-align: center;
 }
 .twitter {
   border-top: 4px solid #2B9DE6;
-  text-align: center;
 }
 .instagram {
   border: none;
@@ -87,10 +94,12 @@ p {
   border-top: 4px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #F2C382, #CC5591);
-  text-align: center;
 }
 .youtube {
   border-top: 4px solid #B50C33;
+}
+
+.card {
   text-align: center;
 }
 
@@ -118,5 +127,42 @@ p {
 }
 
 .add-margin-top {
-  margin-top: 40px;
+  margin-top: 4%;
+}
+
+.left-block {
+  text-align: left;
+}
+
+.right-block {
+  text-align: right;
+}
+
+.social-padding {
+  padding: 15px 15px 5px 15px;
+  position: relative;
+}
+
+.social-bold-text {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.social-percentage {
+  /* font-size: 0.8rem; */
+  /* color: white; */
+  padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.add-margin-top {
+  margin-top: 10px;
 }
