@@ -3,6 +3,7 @@
   display: inline-block;
   width: 55px;
   height: 30px;
+  float: right;
 }
 
 .switch input {

@@ -29,7 +29,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 2% 15%;
+  padding: 30px 15%;
 }
 
 .card {
@@ -67,15 +67,13 @@ h3 {
 }
 
 .mode-container {
-  line-height: 30px;
-  position: absolute;
-  top: 30%;
-  right: 15px;
+  position: relative;
+  top: 0%;
+  right: 0;
 }
 
 .dark-mode {
-  line-height: normal;
-  padding-right: 10px;
+  padding-right: 0;
 }
 
 .attribution {
@@ -134,6 +132,10 @@ h3 {
   margin-top: 4%;
 }
 
+.add-margin-bottom {
+  margin-bottom: 30px;
+}
+
 .left-block {
   text-align: left;
 }
@@ -175,4 +177,40 @@ h3 {
   background-color: #20222E;
   z-index: -1;
   position: absolute;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: #9094B9;
+  height: 1px;
+  visibility: visible;
+}
+
+.add-padding-bottom {
+  padding-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  hr {
+    visibility: hidden;
+  }
+
+  .mode-container {
+    line-height: 30px;
+    position: absolute;
+    top: 30%;
+    right: 15px;
+  }
+
+  .dark-mode {
+    line-height: normal;
+    padding-right: 10px;
+  }
+
+  .add-padding-bottom {
+    padding-bottom: 0px;
+  }
 }
