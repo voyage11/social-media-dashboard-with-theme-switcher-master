@@ -1,16 +1,13 @@
-
-$("#darkMode").click( function(){
-   if($(this).is(':checked')) {
-     console.log("checked");
-     lightMode();
-   } else {
-     console.log("unchecked");
-     darkMode();
-   }
+$("#darkMode").click(function() {
+  if ($(this).is(':checked')) {
+    lightMode();
+  } else {
+    darkMode();
+  }
 });
 
 function darkMode() {
-  $(".dark-mode").text("Dark Mode").css("color", "white");;
+  $(".dark-mode").text("Dark Mode");
   $("body").css("background-color", "#1D2029").css("color", "#9094B9");
   $(".top-background-color").css("background-color", "#20222E");
   $("h1").css("color", "white");
@@ -37,7 +34,7 @@ function darkMode() {
 }
 
 function lightMode() {
-  $(".dark-mode").text("Light Mode").css("color", "#888");;;
+  $(".dark-mode").text("Light Mode");
   $("body").css("background-color", "white").css("color", "#5F6270");
   $(".top-background-color").css("background-color", "#F8F9FE");
   $("h1").css("color", "#20202A");
@@ -61,5 +58,4 @@ function lightMode() {
     .mouseleave(function() {
       $(this).css("background-color", "#F0F3FA");
     });
-
 }

@@ -1,4 +1,3 @@
-
 body {
   background-color: #1D2029;
   color: #9094B9;
@@ -29,10 +28,6 @@ h3 {
   line-height: 1;
 }
 
-p {
-  color: #9094B9;
-}
-
 .container-fluid {
   padding: 2% 15%;
 }
@@ -40,6 +35,8 @@ p {
 .card {
   background-color: #252B43;
   margin-bottom: 3%;
+  border: 0;
+  text-align: center;
 }
 
 .card-block {
@@ -51,7 +48,7 @@ p {
   background-color: #333956;
 }
 
-.card-block:hover  {
+.card-block:hover {
   background-color: #333956;
 }
 
@@ -72,40 +69,42 @@ p {
 .mode-container {
   line-height: 30px;
   position: absolute;
-  top:30%;
-  right:15px;
+  top: 30%;
+  right: 15px;
 }
 
 .dark-mode {
   line-height: normal;
   padding-right: 10px;
-  color: white;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: #3A4C98; color: hsl(228, 45%, 44%); }
-
-.card {
-  border: 0;
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
+
+.attribution a {
+  color: #3A4C98;
+  color: hsl(228, 45%, 44%);
+}
+
 .facebook {
   border-top: 4px solid #268CE5;
 }
+
 .twitter {
   border-top: 4px solid #2B9DE6;
 }
+
 .instagram {
   border-radius: .25rem;
   border-top: 4px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #F2C382, #CC5591);
 }
+
 .youtube {
   border-top: 4px solid #B50C33;
-}
-
-.card {
-  text-align: center;
 }
 
 .social-image {
